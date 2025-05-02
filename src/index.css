@@ -3,20 +3,15 @@
 }
 
 body {
-  font-family: "Orbitron", sans-serif; /* Futuristic font */
+  font-family: "Orbitron", sans-serif;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: radial-gradient(
-    circle,
-    #0f0f0f,
-    #1a1a1a,
-    #000
-  ); /* Dark gradient background */
-  color: #fff; /* Default text color */
+  background: radial-gradient(circle, #0f0f0f, #1a1a1a, #000);
+  color: #fff;
   overflow: hidden;
 }
 
@@ -27,8 +22,8 @@ h4,
 h5,
 h6 {
   margin-top: 0;
-  color: #0ff; /* Neon cyan for headings */
-  text-shadow: 0 0 8px #0ff, 0 0 16px #0ff; /* Glowing effect */
+  color: #0ff;
+  text-shadow: 0 0 8px #0ff, 0 0 16px #0ff;
   text-align: center;
 }
 
@@ -47,7 +42,7 @@ ul {
 
 .square {
   background: #111;
-  border: 2px solid #0ff; /* Neon border */
+  border: 2px solid #0ff;
   float: left;
   font-size: 24px;
   font-weight: bold;
@@ -59,15 +54,15 @@ ul {
   padding: 0;
   text-align: center;
   color: #fff;
-  text-shadow: 0 0 8px #fff, 0 0 16px #fff; /* Glowing text */
+  text-shadow: 0 0 8px #fff, 0 0 16px #fff;
   transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
 }
 
 .square:hover {
-  background: #0ff; /* Neon cyan hover effect */
+  background: #0ff;
   color: #000;
-  transform: scale(1.1); /* Slight zoom effect */
-  box-shadow: 0 0 12px #0ff, 0 0 24px #0ff; /* Glowing hover effect */
+  transform: scale(1.1);
+  box-shadow: 0 0 12px #0ff, 0 0 24px #0ff;
   cursor: pointer;
 }
 
@@ -80,8 +75,8 @@ ul {
 .status {
   margin-bottom: 20px;
   font-size: 18px;
-  color: #ff0; /* Neon yellow for status */
-  text-shadow: 0 0 8px #ff0, 0 0 16px #ff0; /* Glowing effect */
+  color: #ff0;
+  text-shadow: 0 0 8px #ff0, 0 0 16px #ff0;
   text-align: center;
 }
 
@@ -93,7 +88,7 @@ ul {
   background: #111;
   padding: 30px;
   border-radius: 12px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5), 0 0 16px #0ff; /* Neon glow around the game container */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5), 0 0 16px #0ff;
   border: 1px solid #0ff;
 }
 
@@ -106,7 +101,7 @@ ul {
 }
 
 button {
-  background: linear-gradient(90deg, #ff0080, #ff0); /* Neon gradient */
+  background: linear-gradient(90deg, #ff0080, #ff0);
   color: #000;
   border: none;
   padding: 10px 20px;
@@ -118,10 +113,6 @@ button {
 }
 
 button:hover {
-  background: linear-gradient(
-    90deg,
-    #ff0,
-    #ff0080
-  ); /* Reverse gradient on hover */
-  box-shadow: 0 0 12px #ff0, 0 0 24px #ff0080; /* Glowing hover effect */
+  background: linear-gradient(90deg, #ff0, #ff0080);
+  box-shadow: 0 0 12px #ff0, 0 0 24px #ff0080;
 }

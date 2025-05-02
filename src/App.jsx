@@ -1,4 +1,4 @@
-import "./App.css";
+import "./index.css";
 import Game from "./components/Game";
 
 export default function App() {
